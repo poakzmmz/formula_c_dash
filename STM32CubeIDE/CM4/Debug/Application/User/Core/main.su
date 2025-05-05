@@ -1,0 +1,5 @@
+C:/TouchGFXProjects/formula_optimized/CM4/Core/Src/main.c:71:5:main	16	static
+C:/TouchGFXProjects/formula_optimized/CM4/Core/Src/main.c:132:6:PeriphCommonClock_Config	208	static
+C:/TouchGFXProjects/formula_optimized/CM4/Core/Src/main.c:157:13:MX_MDMA_Init	16	static
+C:/TouchGFXProjects/formula_optimized/CM4/Core/Src/main.c:171:13:MX_GPIO_Init	32	static
+C:/TouchGFXProjects/formula_optimized/CM4/Core/Src/main.c:198:6:Error_Handler	4	static,ignoring_inline_asm
