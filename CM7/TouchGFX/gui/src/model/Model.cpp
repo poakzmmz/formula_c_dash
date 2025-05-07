@@ -71,13 +71,8 @@ void Model::tick()
     int p_temperature = (V25 - vsense) / Avg_Slope + 25;  // 온도 계산
     modelListener->p_temp(p_temperature);
 
-
 	/********** RPM **********/
-	HAL_TIM_IC_Start(&htim4, TIM_CHANNEL_2);
-	int tim2_ch2_val = HAL_TIM_ReadCapturedValue(&htim4, TIM_CHANNEL_2);
-	HAL_TIM_IC_Stop(&htim4, TIM_CHANNEL_2);
-	int rpm; // 나중에 조정
-	modelListener->setRPM(rpm);
+
 
 
 	/********** GEAR **********/
